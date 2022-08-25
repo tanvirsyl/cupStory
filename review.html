@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./review.css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="wrapper">
+        <div class="header">
+          <div class="header__branding">
+            <h3 class="header__title"><span>Cup</span> Story</h3>
+          </div>
+          <div class="header__menu">
+            <nav>
+              <ul class="nav">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="about.html" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                  <a href="menu.html" class="nav__link">Menu</a>
+                </li>
+                <li class="nav__item">
+                  <a href="review.html" class="nav__link">Review</a>
+                </li>
+                <li class="nav__item">
+                  <a href="contact.html" class="nav__link">Contact</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--book btn"
+                    ><span class="top-btn">Book Now</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <div class="title">
+          <h2>Our Reviews</h2>
+          <div class="underline"></div>
+        </div>
+
+        <article class="review">
+          <div class="img-container">
+            <img src="./tanvir-removebg-preview.png" alt="" id="person-img" />
+          </div>
+          <h4 id="author">Tanvir Hussain</h4>
+          <p id="job">Front end developer</p>
+          <p id="info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
+            officia reiciendis ducimus nihil maxime iusto quos. Tenetur non
+            adipisci laudantium.
+          </p>
+
+          <!-- pre next button -->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <!-- random button -->
+          <button class="random-btn">Suprise me</button>
+        </article>
+      </section>
+    </main>
+    <script src="./review.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./menu.css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="wrapper">
+        <div class="header">
+          <div class="header__branding">
+            <h3 class="header__title"><span>Cup</span> Story</h3>
+          </div>
+          <div class="header__menu">
+            <nav>
+              <ul class="nav">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="about.html" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                  <a href="menu.html" class="nav__link">Menu</a>
+                </li>
+                <li class="nav__item">
+                  <a href="review.html" class="nav__link">Review</a>
+                </li>
+                <li class="nav__item">
+                  <a href="contact.html" class="nav__link">Contact</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--book btn"
+                    ><span class="top-btn">Book Now</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <section class="menu">
+        <!-- title here -->
+        <div class="title">
+          <h2>Our Menu</h2>
+          <div class="underline"></div>
+        </div>
+
+        <!-- filter buttons -->
+        <div class="btn-container">
+          <button type="button" data-id="all" class="filter-btn">All</button>
+          <button type="button" data-id="breakfast" class="filter-btn">
+            Breakfast
+          </button>
+          <button type="button" data-id="lunch" class="filter-btn">
+            Lunch
+          </button>
+          <button type="button" data-id="shakes" class="filter-btn">
+            shakes
+          </button>
+        </div>
+
+        <!-- menu items -->
+        <div class="section-center">
+          <!-- single item -->
+          <article class="menu-item">
+            <img src="./menu-item.jpeg" alt="menu-item" class="photo" />
+            <div class="item-info">
+              <header>
+                <h4>ButterMilk</h4>
+                <h4 class="price">$15</h4>
+              </header>
+              <p class="item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                doloribus, delectus reprehenderit similique esse quas facilis
+                quos labore quis atque officia ex aperiam iste nihil culpa sequi
+                vel voluptate accusamus.
+              </p>
+            </div>
+          </article>
+          <!-- end of single item -->
+        </div>
+      </section>
+    </section>
+
+    <script src="./menu.js"></script>
+  </body>
+</html>
